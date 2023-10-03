@@ -1,4 +1,4 @@
-# Title: README
+# Title: README.txt
 # Date: 2023 September 30
 # Date updated: 2023 October 03
 ###############################
@@ -15,7 +15,7 @@
 # new_york_city.csv
 
 ###############################
-## Some references I used to help me solve the tasks in the project:
+## References I used to help me solve the tasks in the project:
 # udacity.com
 # https://stackoverflow.com
 # https://stackoverflow.com/questions/455612/limiting-floats-to-two-decimal-points
