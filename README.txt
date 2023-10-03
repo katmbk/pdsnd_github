@@ -1,9 +1,9 @@
 # Title: README
 # Date: 2023 September 30
-# Date updated: 2023 October 02
+# Date updated: 2023 October 03
 ###############################
 
-# The program 'bikeshare.py' was created for a project submission.
+# The program 'bikeshare.py' contains python code and was created for a project submission.
 
 ## Purpose of program:
 # implements local functions (e.g. get_filters, load_data, time_stats, etc.) 
