@@ -4,9 +4,10 @@
 # to get user input, load data, and display statistics per filter.
 ########################################################################
 
-# Import the following: TIME module, DOCTEST module, PANDAS library, NUMPY library
+# Import the following: TIME module, DOCTEST module, TABULATE library, PANDAS library, NUMPY library
 import time
 import doctest
+import tabulate
 import pandas as pd
 import numpy as np
 
@@ -307,12 +308,13 @@ def show_raw_data(df):
     print(df.head())
     next = 0
     
-    while True:
-        show = input('\nDo you want to see the first 5 rows of raw data? Type yes or no.\n')
-        if show.lower() != 'yes':
-            return
-        next = next + 5
-        print(df.iloc[next:next+5])
+   while True:
+        show_data = input('\nDo you want to see the first 5 rows of raw data? Type yes or no.\n')
+        if show_data.lower() != 'yes':
+            break
+    # Using library TABULATE, this ensures one can view all columns
+    print(tabulate(df_default.iloc[np.arange(0+i, 5+i)], headers="keys"))
+    i += 5
 
 doctest.testmod(verbose=True)
 
