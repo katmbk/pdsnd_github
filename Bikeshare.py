@@ -1,4 +1,4 @@
-# Purpose of this program:
+# Purpose of program Bikeshare.py:
 # Implement local functions (e.g. get_filters, load_data, time_stats, etc.) 
 # to get user input, load data, and display statistics per filter.
 
