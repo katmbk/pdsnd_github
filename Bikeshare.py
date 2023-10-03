@@ -1,6 +1,8 @@
+############################ Header ####################################
 # Purpose of program Bikeshare.py:
 # Implement local functions (e.g. get_filters, load_data, time_stats, etc.) 
 # to get user input, load data, and display statistics per filter.
+########################################################################
 
 # Import the following: TIME module, PANDAS library, NUMPY library
 import time
