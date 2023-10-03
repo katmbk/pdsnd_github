@@ -143,6 +143,8 @@ def load_data(city, month, day):
         
     return df
 
+doctest.testmod(verbose=True)
+
 ########################################################################
 def time_stats(df):
     """Displays statistics on the most frequent times of travel.
@@ -184,6 +186,7 @@ def time_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
     
+doctest.testmod(verbose=True)
     
 ########################################################################
 def station_stats(df):
@@ -216,6 +219,8 @@ def station_stats(df):
  
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
+doctest.testmod(verbose=True)
 
 ########################################################################
 def trip_duration_stats(df):
@@ -281,6 +286,8 @@ def user_stats(df, city):
         
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
+doctest.testmod(verbose=True)
     
 ########################################################################
 
@@ -307,6 +314,7 @@ def show_raw_data(df):
         next = next + 5
         print(df.iloc[next:next+5])
 
+doctest.testmod(verbose=True)
 
 ########################################################################
 def main():
