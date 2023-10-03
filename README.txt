@@ -3,7 +3,7 @@
 # Date updated: 2023 October 02
 ###############################
 
-# The program 'bikeshare.py' was created for a project for Udacity.
+# The program 'bikeshare.py' was created for a project submission.
 
 ## Purpose of program:
 # implements local functions (e.g. get_filters, load_data, time_stats, etc.) 
